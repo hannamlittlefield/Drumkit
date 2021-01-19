@@ -42,11 +42,10 @@ min-height: 98vh;
 	right: 0;
 	margin: auto;
   width: 800px;
-  height: 450px;
+  height: 350px;
   background-color: #FF87AB;
   border-radius: 20px;
   padding: 10px;
-
 }
 
 .footer{
@@ -67,12 +66,26 @@ min-height: 98vh;
 }
 
 .drum-pad{
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   background-color: #AEF3E7;
   border-color: black 1px;
   border-radius: 20px;
   padding: 5px;
+  margin: 5px;
   font-family: 'Gugi', cursive;
   font-size: 40px;
+}
+
+#display{
+  position: absolute;
+  background-color: #AEF3E7;
+  min-height: 100px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: 'Gugi', cursive;
+  font-size: 50px;
+  right: 20px;
+  top: 30%;
 }
