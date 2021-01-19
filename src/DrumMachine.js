@@ -1,5 +1,8 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
+import DrumButton from './DrumButton'
+import Grid from '@material-ui/core/Grid';
+
 
 export default function DrumMachine(){
     function PlayClip(clip) {
@@ -10,8 +13,19 @@ export default function DrumMachine(){
     return(
         <React.Fragment>
         <Container id="drum-machine">
-            <div className="drum-pad"
-            onClick={PlayClip()}>Q</div>
+        <div>
+                <DrumButton/>
+                <DrumButton/>
+                <DrumButton/>
+        </div><div>
+                <DrumButton/>
+                <DrumButton/>
+                <DrumButton/>
+                </div>
+                <DrumButton/>
+                <DrumButton/>
+                <DrumButton/>
+            <div id="display">A</div>
         </Container>
             </React.Fragment>
     );
